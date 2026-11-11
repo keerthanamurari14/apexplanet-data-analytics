@@ -101,3 +101,7 @@ apexplanet-data-analytics/
 
 GitHub: https://github.com/keerthanamurari14  
 LinkedIn: https://www.linkedin.com/in/murari-sai-keerthana-213bb63aa
+
+## Dashboard
+
+[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/keerthana.murari/viz/ApexPlanetSuperstoreSalesAnalysis/ExecutiveSalesDashboardSuperstoreSalesAnalysis)
