@@ -1,47 +1,103 @@
-# Task 1 – Foundational Setup & Exploratory Data Analysis
+# Superstore Sales Data Analysis
 
-## Project
-Superstore Sales Data Analysis
+**ApexPlanet Data Analytics Internship – Tasks 1 to 5**
 
-## Objective
-To clean, explore, and analyze the Superstore dataset using Python and identify important patterns, trends, and anomalies.
+## Project Overview
+This project analyzes the Sample Superstore dataset to understand sales, profit, customer behavior, regional performance, and business trends.
 
-## Tools Used
-- Python
-- Pandas
-- Matplotlib
+## Dataset
+- Records: 10,194
+- Columns: 21
+- Cleaned dataset: `data/processed/superstore_cleaned.csv`
+
+## Tasks Completed
+
+### Task 1 – Data Cleaning and Exploratory Data Analysis
+- Standardized column names and checked data types.
+- Checked missing values and duplicate records.
+- Examined outliers using the IQR method.
+- Analyzed sales, profit, categories, regions, and customer segments.
+
+### Task 2 – SQL and Python Analysis
+- Performed SQL-based analysis.
+- Used Python notebooks and scripts for database-related work.
+- SQL queries: `scripts/task2_queries.sql`.
+
+### Task 3 – Data Visualization
+- Created visualizations for sales and profit trends.
+- Saved a Tableau dashboard backup.
+- Created a monthly sales trend visualization.
+
+### Task 4 – Advanced Analytics
+- Performed descriptive statistics and hypothesis testing.
+- Evaluated forecasting models.
+- Applied K-Means customer segmentation.
+- Built regression and classification models.
+
+### Task 5 – Automation and Final Reporting
+- Automated KPI calculations using Python.
+- Exported results to CSV and Excel.
+- Generated a final PDF analytics report.
+
+## Key Findings
+- Technology recorded the highest total sales and profit among categories.
+- The West region recorded the highest total sales and profit.
+- The Consumer segment recorded the highest total sales and profit.
+- Sales showed a strongly right-skewed distribution.
+- Discounted transactions had lower average profit than non-discounted transactions.
+- Decision Tree regression performed better than Linear Regression in the evaluated test set.
+- Exponential Smoothing had the lowest forecast errors among the evaluated forecasting models.
+
+## Technologies Used
+- Python, Pandas, NumPy
+- Matplotlib, Seaborn
 - Jupyter Notebook
+- SQL
+- Tableau
+- Scikit-learn
+- Statsmodels
+- ReportLab
+- OpenPyXL
 
-## Data Preparation
-- Standardized column names
-- Checked missing values and duplicates
-- Checked data types and dates
-- Detected outliers using the IQR method
-- Retained legitimate outlier observations
-- Saved the cleaned dataset as `data/processed/superstore_cleaned.csv`
+## Project Structure
+```text
+apexplanet-data-analytics/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── scripts/
+├── dashboards/
+├── reports/
+├── requirements.txt
+└── README.md
+```
 
-## Exploratory Data Analysis
-The analysis includes:
-- Statistical summary
-- Sales distribution analysis
-- Boxplot analysis
-- Sales by category
-- Sales by region
-- Profit by category
-- Profit by region
-- Sales and profit by customer segment
-- Sales vs Profit analysis
-- Correlation heatmap
+## How to Run
+1. Clone the repository:
+   `git clone https://github.com/keerthanamurari14/apexplanet-data-analytics.git`
+2. Enter the project directory:
+   `cd apexplanet-data-analytics`
+3. Create and activate a virtual environment:
+   `python3 -m venv .venv`
+   `source .venv/bin/activate`
+4. Install dependencies:
+   `pip install -r requirements.txt`
+5. Run the KPI automation:
+   `python scripts/automate_analysis.py`
+6. Open the notebooks:
+   `jupyter notebook`
 
-## Key Insights
-- Sales are strongly right-skewed.
-- Technology records the highest total sales and profit among the categories.
-- The West region records the highest total sales and profit.
-- The Consumer segment records the highest total sales and profit.
-- Sales and profit show a moderate positive correlation.
-- Discount and profit show a weak negative correlation.
+## Main Deliverables
+- Notebooks for Tasks 1–4.
+- Cleaned dataset.
+- SQL queries and Python scripts.
+- Tableau dashboard backup and visualization files.
+- KPI automation CSV and Excel outputs.
+- Final PDF analytics report.
 
-## Files
-- `task1_eda.ipynb` – Jupyter notebook containing the complete analysis
-- `data/processed/superstore_cleaned.csv` – cleaned dataset
-- `README.md` – project documentation
+## Author
+**Keerthana Murari**
+
+GitHub: https://github.com/keerthanamurari14  
+LinkedIn: https://www.linkedin.com/in/keerthanamurari
