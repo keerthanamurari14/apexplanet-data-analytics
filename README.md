@@ -100,4 +100,4 @@ apexplanet-data-analytics/
 **Keerthana Murari**
 
 GitHub: https://github.com/keerthanamurari14  
-LinkedIn: https://www.linkedin.com/in/keerthanamurari
+LinkedIn: https://www.linkedin.com/in/murari-sai-keerthana-213bb63aa
